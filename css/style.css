@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Zen+Antique+Soft&display=swap');
+
+*{
+
+    font-family: 'Playfair Display', serif;
+    font-family: 'Zen Antique Soft', serif;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+} 
+
+html{
+    font-size: 75%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: var(--bg-color);
+    text-align: center;
+	margin: 0 auto;
+}
+
+
+               /*         Light Mode          */
+:root{
+    --btn_c: #e6e6e6;
+    --file:#c7c6c6;
+    --toggle: #27ae60;
+    --btn: #45cfc8;
+    --btn-A:  #079992;
+    --text: #777;
+    --dark: #444;
+    --green:#27ae60;
+    --black:#444;
+    --light-color:#777;
+    --bg-color:#e6e6e6;
+    /* --hover:rgb(158, 164, 165); */
+    --border:.1rem solid rgba(0,0,0,.2);
+
+    --box-shadow:.4rem .4rem 1rem #ccc,
+                -.4rem -.4rem 1rem #fff;
+    --box-shadow-inset:.4rem .4rem 1rem #ccc inset,
+                      -.4rem -.4rem 1rem #fff inset;
+}
+
+                /*          Dark Mode            */
+body.active{
+    --btn_c: #96ccd3;
+    --file:rgb(95, 123, 126);
+    --toggle: #FFD700;
+    --btn: #079992;
+    --btn-A: #079992;
+    --dark:#079992;
+    --black:#fff;
+    --light-color:#ddd;
+    --bg-color:rgb(38, 72, 75);
+    /* --hover:rgb(74, 92, 94); */
+    --border:.1rem solid rgba(0, 0, 0, 0.4);
+    --box-shadow:.4rem .4rem 1rem rgb(0, 50, 51),
+                -.4rem -.4rem 1rem rgb(41, 57, 58);
+    --box-shadow-inset:.4rem .4rem 1rem rgb(0, 50, 51) inset,
+                -.4rem -.4rem 1rem rgb(41, 57, 58) inset;
+}
+
+                /*       Theme Toggler        */
+
+#theme-toggler{
+    position: fixed;
+    top:2rem; right: 2rem;
+    z-index: 1000;
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    border-radius: 30%;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    color:var(--toggle);
+    background: var(--bg-color);
+}
+
+#theme-toggler:hover{
+    color:var(--green);
+    box-shadow: var(--box-shadow-inset);
+}
+
+
+/* Responsive */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.flex-item {
+    margin-top: 60px;
+    margin-right: 20px;
+    margin-left: 45px;
+    width: 600px;
+    height: 550px;
+    color: white;
+}
+
+.box-1 {
+    background-color: none;
+}
+
+.box-2 {
+    background-color: none;
+}
+
+
+           
+  

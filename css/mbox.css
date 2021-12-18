@@ -1,0 +1,42 @@
+.container {
+    width: 350px;
+    height: 325px;
+    text-align: center;
+    margin: 100 auto;
+    box-shadow: var(--box-shadow);
+    color: rgb(247, 248, 248);
+    
+    position: center;
+
+}
+
+.container h2 {
+    margin-top: 30px;
+    color: var(--dark);
+    font-size: 1.5rem;
+}
+
+input {
+    width: 68%;
+    box-shadow: var(--box-shadow);
+    background: none;
+    color: var(--black);
+    border-radius: 5px;
+    padding: 7px;
+    margin-top: 50px;
+}
+
+input:focus {
+    box-shadow: var(--box-shadow-inset);
+}
+
+.container p {
+    margin-top: 50px;
+    color: var(--black);
+    font-size: 1rem;
+}
+
+.container p span {
+    color: var(--green);
+    font-size: 1rem;
+}

@@ -1,0 +1,195 @@
+/*  Right Side  #c191a1;  */
+.sidePart img {
+    margin-left: -160px;
+    width: 500px;
+    height: 250px;
+    margin-top: 90px;
+}
+
+#headerSection {
+    padding: 5px;
+}
+
+.heading {
+    padding-top: 0rem;
+    margin-left: -160px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--black);
+    margin-top: 70px;
+    text-transform: uppercase;
+    padding-bottom: 0;
+}
+
+.heading span {
+    color: var(--green);
+    text-transform: uppercase;
+    animation: blinking 3s infinite;
+}
+
+@keyframes blinking {
+    0% {
+        color: var(--bg-color);
+    }
+
+    100% {
+        color: var(--green);
+    }
+}
+
+/* Register Form----Left Side */
+.container {
+    width: 460px;
+    height: 500px;
+    text-align: center;
+    margin: 100 auto;
+    box-shadow: var(--box-shadow);
+
+    color: rgb(247, 248, 248);
+    margin-top: 30px;
+    margin-left: 110px;
+}
+
+.container p {
+    margin-top: -12;
+    color: var(--black);
+    font-size: 1rem;
+}
+
+.container p span {
+    color: var(--green);
+    font-size: 1rem;
+}
+
+.container img {
+    width: 80px;
+    height: 80px;
+    margin-top: -45px;
+}
+
+.container h2 {
+    margin-top: -2;
+    color: var(--dark);
+    font-size: 1.5rem;
+}
+
+#address {
+    width: 77%;
+    box-shadow: var(--box-shadow);
+    background: none;
+    color: var(--black);
+    border-radius: 3px;
+    padding: 7px;
+}
+
+#address:focus {
+    box-shadow: var(--box-shadow-inset);
+}
+
+#emailID {
+    width: 77%;
+    box-shadow: var(--box-shadow);
+    background: none;
+    color: var(--black);
+    border-radius: 3px;
+    padding: 7px;
+}
+
+#emailID:focus {
+    box-shadow: var(--box-shadow-inset);
+}
+
+input {
+    width: 38%;
+    box-shadow: var(--box-shadow);
+    background: none;
+    color: var(--black);
+    border-radius: 3px;
+    padding: 7px;
+}
+
+input:focus {
+    box-shadow: var(--box-shadow-inset);
+}
+
+input[type=file] {
+    color: var(--text);
+}
+
+
+#dropbox {
+    padding: 8px;
+    border-radius: 3px;
+    width: 68%;
+    box-shadow: var(--box-shadow);
+    background: none;
+    color: var(--black);
+}
+
+#imgpart {
+    box-shadow: var(--box-shadow);
+    background: none;
+    color: var(--black);
+    border-radius: 5px;
+    padding: 1px;
+    width: 76%;
+}
+
+#imgpart p {
+    margin-top: 7;
+    color: var(--text);
+}
+
+#imgpart p .box {
+    margin-left: 5%;
+    width: 60%;
+}
+
+#role {
+
+    background: none;
+    color: var(--black);
+
+    padding: 3px;
+
+}
+
+#role p .box{
+    margin-left: 5%;
+    width: 60%;
+    margin-top: 7;
+    color: var(--text);
+}
+
+select {
+    border-radius: 3px;
+    padding: 5px;
+    width: 30%;
+    box-shadow: var(--box-shadow);
+    background: none;
+    color: var(--black);
+    margin-left: 5%;
+}
+
+#role option {
+    background-color: var(--bg-color);
+    color: var(--black);
+}
+
+.btn {
+    margin-top: 0;
+    display: inline-block;
+
+    cursor: pointer;
+    background: var(--btn);
+    color: var(--black);
+    box-shadow: var(--box-shadow);
+    width: 77.5%;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    box-shadow: var(--btn-A);
+}
